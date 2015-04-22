@@ -13,6 +13,7 @@
 	-o-font-smoothing:antialiased;
 	font-smoothing:antialiased;
 	text-rendering:optimizeLegibility;
+
 }
 
 
@@ -29,7 +30,8 @@ body{
 	background-size:180%;
 	color:#FFFFFF;
 	text-align:center;
-	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "futura-pt",sans-serif;
+	font-weight: bold;
 	
 }
 
@@ -117,7 +119,7 @@ body{
 					
 				nav ul li {
 					float: left;
-					font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif
+					font-family: "futura-pt",sans-serif;
 				}
 
 
@@ -233,7 +235,7 @@ body{
 
 
 #text h1 {
-	font-family: "mostra-nuova",sans-serif;
+	font-family: "futura-pt",sans-serif;
 	font-variant: small-caps;
 	font-style: normal;
 	text-align: center;
@@ -309,6 +311,7 @@ a {
 
 
 .about p {
+	font-family: "ff-tisa-web-pro",serif;
 	text-align: left;
 	padding: 20px;
 	margin:10px;
@@ -337,48 +340,54 @@ a {
 
 #portfolio{
 	min-height:100%;
-	margin:0 auto 80% auto;
+	margin:0 auto 200% auto;
 	padding:50px 0;
 	position:relative;
 }
 
+#brandingimage img{
+	max-width:100%;
+	width:100%;
+
+}
+
+#logoimage img{
+	max-width: 80%;
+	margin: 0 auto;
+}
 
 .group:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
 
-#page-wrap{
-	width: 75%;
-	margin: 0 auto;
 
-}
 
 .image-gallery { 
 	width: 100%;
 }
 
 
-figure {
+.item {
   height: 200px; 
   width: 250px; 
   overflow: hidden;
-  float: left; 
   margin: 10px; 
   background: black;
-  border: 1px  white; 
-  border-radius:40px;
   -webkit-transition: all 0.7s ease; 
   -moz-transition: all 1s ease;
   position: relative;
 }
 
+
+
 figcaption { 
   text-align: center; 
-  display: block; 
+  display:inline-block;
   font-size: 12px; 
   font-style: italic; 
   background: black;
 }
 
 figure img { 
+  height:100%;
   width: 100%; /* Scale down */
   height:auto;
   margin:5px;
@@ -409,6 +418,15 @@ figure:focus {
 	position:relative;
 	margin-top:30px;
 	padding-top:20px;
+	color:#ffffff;
+}
+#contactme h3{
+	margin-bottom: 20px;
+	font-weight: bold;
+
+}
+#contactme p{
+	padding: 5px 0;
 }
 
 .wrapper {
@@ -420,9 +438,13 @@ figure:focus {
 }
 #contact-form input[type="text"],
 #contact-form input[type="email"],
-#contact-form textarea,
+#contact-form textarea,{
+	font-family: "ff-tisa-web-pro",serif;;
+}
 #contact-form button[type="submit"] {
-	font:400 12px/12px  sans-serif;
+	font:400 15px/15px  "futura-pt",sans-serif;
+	font-weight: bold;
+	 
 }
 #contact-form {
 	text-shadow:0 1px 0 #FFF;
@@ -433,19 +455,20 @@ figure:focus {
 	padding:25px;
 }
 #contact-form h3 {
-	color:#F26F61;
 	display:block;
 	font-size:28px;
+	font-family: "futura-pt",sans-serif;
+	margin-bottom: 20px;
 }
 #contact-form h4 {
-	margin:5px 0 15px;
+	margin: 0px;
 	display:block;
-	font-size:13px;
-	color:#559D9D ;
+	font-size:20px;
+	font-family: "ff-tisa-web-pro",serif;
 }
 #contact-form label span {
 	cursor:pointer;
-	color:#F26F61;
+	color:#559D9D;
 	display:block;
 	margin:5px 0;
 	font-weight:900;
@@ -489,6 +512,7 @@ figure:focus {
 	margin:0 0 5px;
 	padding:10px;
 	border-radius:5px;
+	font-family: "futura-pt",sans-serif;
 }
 #contact-form button[type="submit"]:hover {
 	background-image:linear-gradient(bottom, #559D9D 0%, #508E8C 52%);
@@ -497,6 +521,7 @@ figure:focus {
 	-webkit-transition:background 0.3s ease-in-out;
 	-moz-transition:background 0.3s ease-in-out;
 	transition:background-color 0.3s ease-in-out;
+	font-family: "futura-pt",sans-serif;
 }
 #contact-form button[type="submit"]:active {
 	box-shadow:inset 0 1px 3px #F26F61;
@@ -528,7 +553,6 @@ figure:focus {
 	margin: 0 auto;
 	border-radius: 40px;
 	padding-bottom: 30px;
-	border: dashed 3px #ffffff;
 	max-width:550px;
 
 }
