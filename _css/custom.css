@@ -451,7 +451,6 @@ figure:focus {
 	border-radius:20px;
 	-webkit-border-radius:20px;
 	-moz-border-radius:20px;
-	background:#F9F9F9;
 	padding:25px;
 }
 #contact-form h3 {
@@ -548,7 +547,6 @@ figure:focus {
 
 
 .contact{
-	background-color: #2b2a3c;
 	width:auto;
 	margin: 0 auto;
 	border-radius: 40px;
