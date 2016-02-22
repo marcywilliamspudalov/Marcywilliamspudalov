@@ -49,6 +49,7 @@ $(document).ready(function() {
       .replace(/(index|default).[a-zA-Z]{3,4}$/,'')
       .replace(/\/$/,'');
   }
+
   $('a[href*=#]').each(function() {
     if ( filterPath(location.pathname) == filterPath(this.pathname)
     && location.hostname == this.hostname
@@ -73,3 +74,4 @@ $(document).ready(function() {
     }
   });
 });
+
