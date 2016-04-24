@@ -18,7 +18,7 @@ html { overflow-y: scroll; }
 
 body { 
 	font-family: "futura-pt",sans-serif;
-	background: url(_images/background.png) repeat 5% 5%;
+	background: url(images/background.png) repeat 5% 5%;
 
 }
 
@@ -38,7 +38,7 @@ h2 { font-size: 1.5em; font-weight: bold; }
 
 
 #backmidground {
-	background: url(_images/midground.png) repeat 20% 20%;
+	background: url(images/midground.png) repeat 20% 20%;
 	top: 0; left: 0; right: 0; bottom: 0;
 	position: absolute;
 	z-index: 990;
@@ -47,7 +47,7 @@ h2 { font-size: 1.5em; font-weight: bold; }
 }
 
 #midground {
-	background: url(_images/foreground.png) repeat 90% 110%;
+	background: url(images/foreground.png) repeat 90% 110%;
 	position: absolute;
 	top: 0; left: 0; right: 0; bottom: 0;
 	z-index: 992;
@@ -120,7 +120,7 @@ h2 { font-size: 1.5em; font-weight: bold; }
 /* PARALLAX STYLES*/
 
 /* larger than phablet */
-			@media (min-width: 675px){
+			/*@media (min-width: 675px){
 				
 				.bg {
 				  position: absolute;
@@ -271,7 +271,7 @@ h2 { font-size: 1.5em; font-weight: bold; }
 				}
 
 		}
-
+*/
 
 /* FOOTER */
 footer{
@@ -558,6 +558,7 @@ footer{
   min-height: 1000px;
   background-size: cover;
   background-position: center;
+  background: url("images/waterfallforabout.png") 50% 0 repeat fixed;
 	
 	
 }
