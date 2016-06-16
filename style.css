@@ -485,7 +485,7 @@ footer{
 					border-bottom:solid thin #5B5B5B;
 					box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
 					padding: 0 5px;
-					border-radius: 50px;  
+					 
 					list-style: none;
 					position: relative;
 					display: inline-table;
@@ -555,7 +555,7 @@ footer{
 
 #aboutpage{
   height:100vh;
-  min-height: 1000px;
+  min-height: 2000px;
   background-size: cover;
   background-position: center;
   background: url("images/waterfallforabout.png") 50% 0 repeat fixed;
@@ -566,7 +566,7 @@ footer{
 		@media (min-width: 500px) {
 			#aboutpage{
 				height:100vh;
-				min-height:1000px;
+				min-height:1500px;
 				position:relative;
 				width:90%; 
 				
@@ -636,7 +636,7 @@ footer{
 
 #portfolio{
 	height:100vh;
-	min-height:2000px;
+	min-height:3000px;
 	color:#ffffff;
 
 }
